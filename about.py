@@ -11,7 +11,9 @@ def display_about_view():
 
     about_desc = Text(about_view, width= 65, height = 8, bg = "#CCC")
     about_desc.pack()
+
     about_desc.insert(END, "GNU/Linux, es el término empleado para referirse a la combinación del sistema operativo GNU, desarrollado por la FSF, y el núcleo(kernel) Linux, desarrollado por Linus Torvalds y la Linux Foundation. Su desarrollo es uno de los ejemplos más prominentes de software libre; todo su código fuente puede ser utilizado, modificado y redistribuido libremente por cualquiera bajo los términos de la GPL (Licencia Pública General de GNU) y otra serie de licencias libres")
+
     about_desc.config(state=DISABLED)
     about_desc.place(x = 20, y = 60)
      
