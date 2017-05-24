@@ -16,9 +16,8 @@ welcome_lbl.place(x = 20, y = 20)
 
 def fetchLicenseView():
     display_about_view()
-
-licence_btn = Button(root, text="Licencia", command=fetchLicenseView, bg = "#000000", fg = "#ffffff", width = 50, height = 5)
-licence_btn.place(x=35,y=180)
- 
+    
+about_btn = Button(root, text="Sobre este proyecto", command=fetchLicenseView, bg = "#000000", fg = "#ffffff", width = 50, height = 5)
+about_btn.place(x=35,y=180)
 
 root.mainloop()
