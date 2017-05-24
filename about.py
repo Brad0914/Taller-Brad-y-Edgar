@@ -11,7 +11,7 @@ def display_about_view():
 
     about_desc = Text(about_view, width= 65, height = 8, bg = "#CCC")
     about_desc.pack()
-    about_desc.insert(END, "GitHub es una forja (plataforma de desarrollo colaborativo) para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza el framework Ruby on Rails por GitHub, Inc. (anteriormente conocida como Logical Awesome). Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago.")
+    about_desc.insert(END, "A pesar de que 'Linux' se denomina en la jerga cotidiana al sistema operativo,2 3 este es en realidad solo el Kernel (núcleo) del sistema. La verdadera denominación del sistema operativo es 'GNU/Linux' debido a que el resto del sistema (la parte fundamental de la interacción entre el hardware y el usuario) se maneja con las herramientas del proyecto GNU (www.gnu.org) y con entornos de escritorio (como GNOME), que también forma parte del proyecto GNU aunque tuvo un origen independiente. Como el Proyecto GNU destaca,4 GNU es una distribución, usándose el término sistema operativo en el sentido empleado en el ecosistema Unix, lo que en cualquier caso significa que Linux es solo una pieza más dentro de GNU/Linux. Sin embargo, una parte significativa de la comunidad, así como muchos medios generales y especializados, prefieren utilizar el término Linux para referirse a la unión de ambos proyectos.")
     about_desc.config(state=DISABLED)
     about_desc.place(x = 20, y = 60)
      
